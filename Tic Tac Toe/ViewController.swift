@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         
         for(var i = 0; i < board.count; i++) {
             board[i] = 0
-            var temp = UIImage()
             pegs[i].setImage(UIImage(), forState: .Normal)
         }
         
