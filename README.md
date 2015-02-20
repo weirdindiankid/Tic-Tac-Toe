@@ -1,6 +1,6 @@
 A simple game of Tic Tac Toe (Noughts and Crosses) for the iPhone
 
-Works on iOS8. Written in Swift.
+Works on iOS8, written in Swift.
 
 Proposed changes:
 
@@ -9,3 +9,5 @@ Proposed changes:
 2. Draw a line through the victory sequence when a user wins.
 
 3. Change the New Game button functionality to make it more intuitive.
+
+4. Fix the Auto Layout. (The bottom half of the board seems to disappear in landscape mode)
