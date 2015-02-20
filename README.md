@@ -12,6 +12,7 @@ Proposed changes:
 
 4. Fix the Auto Layout. (The bottom half of the board seems to disappear in landscape mode)
 
+5. Add in artificial intelligence.
 To Run:
 
 Simply clone the repository and build it in XCode.
