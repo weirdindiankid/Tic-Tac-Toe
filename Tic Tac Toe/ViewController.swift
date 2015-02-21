@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     
     @IBOutlet var pegs: [UIButton]!
     
-    
     @IBAction func newGame(sender: AnyObject) {
         
         for(var i = 0; i < board.count; i++) {
             board[i] = 0
             pegs[i].setImage(UIImage(), forState: .Normal)
         }
+        xTurn = true
         
     }
     
@@ -77,6 +77,9 @@ class ViewController: UIViewController {
             if(board[i] == 0) {
                 board[i] = 9
             }
+            
+            // Change bool value
+            xTurn = true
         }
     }
     func isWinFor(player: Int) -> Bool {
